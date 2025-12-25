@@ -1,0 +1,19 @@
+{
+  "projectName": "tanstack_apollo_cloudflare",
+  "mode": "file-router",
+  "typescript": true,
+  "tailwind": true,
+  "packageManager": "npm",
+  "addOnOptions": {},
+  "git": true,
+  "version": 1,
+  "framework": "react-cra",
+  "chosenAddOns": [
+    "biome",
+    "cloudflare",
+    "start",
+    "apollo-client",
+    "t3env",
+    "table"
+  ]
+}
