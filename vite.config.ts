@@ -18,6 +18,13 @@ const config = defineConfig({
     tanstackStart(),
     viteReact(),
   ],
+  environments: {
+    ssr: {
+      resolve: {
+        conditions: ['edge-light']
+      }
+    }
+  }
 })
 
 export default config
